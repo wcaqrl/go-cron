@@ -1,0 +1,28 @@
+{
+  "etcd的集群列表": "配置多个,避免单点故障",
+  "etcdEndpoints": ["10.3.2.89:2379"],
+
+  "etcd连接超时": "单位毫秒",
+  "etcdDialTimeout": 5000,
+
+  "elasticsearch服务地址": "ip地址",
+  "elasticHost": "10.3.2.188",
+
+  "elasticsearch服务端口": "端口号",
+  "elasticPort": "9200",
+
+  "elasticsearch用户名": "用户名",
+  "elasticUsername": "elastic",
+
+  "elasticsearch密码": "密码",
+  "elasticPassword": "FAgTmSdxJI4xhtHrE7gO",
+
+  "elasticsearch日志索引名称": "索引名称",
+  "indexName": "fun-job-log",
+
+  "日志批次大小": "单次写入条数",
+  "jobLogBatchSize": 100,
+
+  "日志超时自动提交": "单位毫秒",
+  "jobLogCommitTimeout": 1000
+}

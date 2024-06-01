@@ -1,0 +1,75 @@
+{
+  "errorCode": 0,
+  "msg": "ok",
+  "data": {
+    "app": {
+      "name": "Fun-Cron",
+      "description": "风行定时任务管理后台"
+    },
+    "user": {
+      "name": "funshion",
+      "avatar": "./assets/tmp/img/avatar.jpg",
+      "email": "funshion@fun.tv"
+    },
+    "menu": [
+      {
+        "text": "节点管理",
+        "group": true,
+        "hideInBreadcrumb": true,
+        "children": [
+          {
+            "text": "节点列表",
+            "icon": "anticon-info",
+            "link": "/worker/list",
+            "shortcut": true
+          }
+        ]
+      },
+      {
+        "text": "任务管理",
+        "group": true,
+        "hideInBreadcrumb": true,
+        "children": [
+          {
+            "text": "任务列表",
+            "icon": "anticon-info",
+            "link": "/job/list",
+            "shortcut": true
+          }
+        ]
+      },
+      {
+        "text": "Api配置管理",
+        "group": true,
+        "hideInBreadcrumb": true,
+        "children": [
+          {
+            "text": "配置列表",
+            "icon": "anticon-info",
+            "link": "/conf/list",
+            "shortcut": true
+          }
+        ]
+      },
+      {
+        "text": "日志管理",
+        "group": true,
+        "hideInBreadcrumb": true,
+        "children": [
+          {
+            "text": "定时任务日志",
+            "icon": "anticon-info",
+            "link": "/log/job",
+            "shortcut": true
+          },
+          {
+            "text": "接口访问日志",
+            "icon": "anticon-info",
+            "link": "/log/http",
+            "shortcut": true
+          }
+        ]
+      }
+    ]
+  }
+}
